@@ -6,7 +6,7 @@ EditorUserSettings:
   serializedVersion: 4
   m_ConfigSettings:
     GraphicsSettingsInspector_UserSettings:
-      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b07a68ffab74f9ee2a3a30300cea1a11320d0beb1a0c25f7060f494b4cdf1b18f3045e38cb5ad8
+      value: 18134705175a055722080a3115371d4a0d55006876786860616b0471b8b1646aacb162b8be636f6a6f53b96e556f1c73b01a001bf30703051428e8021dcb090314eb19c81f8a455ee90c15c2d950f8ed97cb
       flags: 0
     QuickInstaller_com.unity.purchasing_installRecorded:
       value: 2550581500
@@ -19,6 +19,9 @@ EditorUserSettings:
       flags: 0
     RecentlyUsedSceneGuid-1:
       value: 560000045005505d5d0c5e77122106114215417c2e2e7e34797f4f64b1b9653e
+      flags: 0
+    RecentlyUsedSceneGuid-2:
+      value: 065202525603505f555e0e7711205d4447161b7a7d7d7031797f4535b0e4603b
       flags: 0
     lightmappingBakingProfile:
       value: 51
