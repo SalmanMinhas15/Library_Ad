@@ -1,0 +1,27 @@
+{
+  "ignores": [],
+  "groups": [
+    [
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/_Third Person Movement/_Third Person Movement/CameraFollower.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/_Third Person Movement/_Third Person Movement/CharacterMovement.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/Script/Door.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/Script/AudioManager.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/Script/GameController.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/Script/Player.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/Script/Book.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/Script/Shelf.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/Script/UIManager.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/_Third Person Movement/_Third Person Movement/PlayableDynamicJoystick.cs",
+      "C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage3/processed-scripts/Assets/_Third Person Movement/_Third Person Movement/Movement.cs"
+    ],
+    [
+      "C:/Users/Salman Minhas/Downloads/7.2.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "C:/Users/Salman Minhas/Downloads/7.2.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ],
+    [
+      "C:/Users/Salman Minhas/Downloads/7.2.0/pipeline/templates/LunaCompiler/Scripts/obj/Debug/.NETFramework,Version=v4.7.AssemblyAttributes.cs"
+    ]
+  ]
+}

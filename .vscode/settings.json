@@ -67,5 +67,7 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Library_Ad.slnx"
+    "dotnet.defaultSolution": "Library_Ad.slnx",
+    "dotnet.enableWorkspaceBasedDevelopment": false,
+    "git.ignoreLimitWarning": true
 }

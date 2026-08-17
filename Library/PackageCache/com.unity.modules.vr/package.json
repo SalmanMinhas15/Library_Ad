@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "type": "module",
   "displayName": "VR",
-  "description": "The VR module implements support for virtual reality devices in Unity. (This module is obsolete, please use UnityEngine.XRModule instead) Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html",
+  "description": "The VR module implements support for virtual reality devices in Unity. Scripting API: https://docs.unity3d.com/ScriptReference/UnityEngine.VRModule.html",
   "icon": null,
   "dependencies": {
     "com.unity.modules.jsonserialize": "1.0.0",
