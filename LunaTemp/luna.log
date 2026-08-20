@@ -1,23 +1,26 @@
 Authorized using stored user info.
-Exporting assets from Unity.............................
+stderr: 'rm' is not recognized as an internal or external command,
+operable program or batch file.
+
+Exporting assets from Unity..................
 
 [ Stage1 ] Assets exported from Unity and staged for further processing
-Using C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/Assets/font/Linotype  FrutigerLTProBlack.otf file to generate an atlas for Linotype  FrutigerLTProBlack[36764] font
+Using C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/Assets/font/Linotype  FrutigerLTProBlack.otf file to generate an atlas for Linotype  FrutigerLTProBlack[33094] font
   Using alphabet  ┬º1234567890-=qwertyuiop[]asdfghjkl;'\`zxcvbnm,./┬▒!@#$%^&*()_+QWERTYUIOP{}ASDFGHJKL:"|~ZXCVBNM<>?
-Combined 97 glyphs into bitmap texture at C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage1/tmp/fonts/Linotype  FrutigerLTProBlack-36764/output_0.png (54kb)
+Combined 97 glyphs into bitmap texture at C:/Users/Salman Minhas/Downloads/Unity_Game_Development/Library_Ad/LunaTemp/stage1/tmp/fonts/Linotype  FrutigerLTProBlack-33094/output_0.png (54kb)
 Resources:
 {}
 [ Stage2 ] Assets postprocessed and bundled successfully
 Authorized using stored user info.
 MSBuild version 18.9.1+a81b43525 for .NET Framework
 
-Build started 8/17/2026 3:21:43 PM.
+Build started 8/20/2026 5:14:52 PM.
 
 
 
 Project "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" on node 1 (Rebuild target(s)).
-CoreClean:
 
+CoreClean:
   Deleting file "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.dll".
 
   Deleting file "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityScriptsCompiler.pdb".
@@ -85,14 +88,14 @@ CoreCompile:
   Compilation request Scripts, PathToTool=C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\csc.exe
 
   CommandLine = ' /noconfig'
-  BuildResponseFile = '/nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_6000;UNITY_2017_1_OR_NEWER;UNITY_2017_
-2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_0;UNITY_6000_0_81 /highentropyva+ /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CameraFollower.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\Movement.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\PlayableDynamicJoystick.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Book.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Door.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Player.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Shelf.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"'
+
+  BuildResponseFile = '/nowarn:CS0626,1701,1702 /fullpaths /nostdlib+ /errorreport:prompt /warn:4 /define:UNITY_LUNA;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_6000;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_2023_1_OR_NEWER;UNITY_2023_2_OR_NEWER;UNITY_2023_3_OR_NEWER;UNITY_6000_0_OR_NEWER;UNITY_6000_0;UNITY_6000_0_81 /highentropyva+ /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" /reference:"C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" /debug+ /debug:full /optimize- /out:obj\Debug\UnityScriptsCompiler.dll /subsystemversion:6.00 /target:library /warnaserror- /utf8output /langversion:8 "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CameraFollower.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\Movement.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\PlayableDynamicJoystick.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Book.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Door.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Player.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Shelf.cs" "C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs" Properties/AssemblyInfo.cs Sources/OtherDummyScript.cs "obj\Debug\.NETFramework,Version=v4.7.AssemblyAttributes.cs"'
 
   Attempting to create process 'C:\Program Files\Microsoft Visual Studio\18\Community\MSBuild\Current\Bin\Roslyn\VBCSCompiler.exe' "-pipename:CvinrgYtGgNiwWuYK1hv415A4Osydh8GSaGSkrLypPc"
 
   Setting DOTNET_TieredCompilation to '0'
 
-  Successfully created process with process id 3112
+  Successfully created process with process id 13816
 
   Attempt to open named pipe 'CvinrgYtGgNiwWuYK1hv415A4Osydh8GSaGSkrLypPc'
 
@@ -107,85 +110,85 @@ CoreCompile:
 
   End reading response for Scripts
 
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CameraFollower.cs(9,30): warning CS0649: Field 'CameraFollower.inRoomPositionOffset' is never assigned to, and will always have its default value [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(7,32): warning CS0169: The field 'GameController.confettiCamera' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Shelf.cs(8,32): warning CS0649: Field 'Shelf.playerStandPoint' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(12,32): warning CS0649: Field 'AudioManager.checkPoint' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\Movement.cs(8,13): warning CS0169: The field 'Movement.velocity' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\PlayableDynamicJoystick.cs(15,21): warning CS0169: The field 'PlayableDynamicJoystick.startPos' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(14,32): warning CS0649: Field 'AudioManager.levelComplete' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs(15,33): warning CS0649: Field 'UIManager.infoImg' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(8,34): warning CS0649: Field 'AudioManager.inGameAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(7,34): warning CS0649: Field 'AudioManager.bgAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Player.cs(9,41): warning CS0649: Field 'Player.playerCatchPoints' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(9,31): warning CS0649: Field 'CharacterMovement.playerAnimator' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(10,30): warning CS0169: The field 'GameController.shelfs' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(9,35): warning CS0649: Field 'GameController.TargetPoins' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
 C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs(16,27): warning CS0649: Field 'UIManager.infoTxt' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(7,32): warning CS0169: The field 'GameController.confettiCamera' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Player.cs(9,41): warning CS0649: Field 'Player.playerCatchPoints' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(11,32): warning CS0649: Field 'AudioManager.PopTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(9,32): warning CS0649: Field 'AudioManager.PickTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(14,32): warning CS0649: Field 'AudioManager.levelComplete' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(12,32): warning CS0649: Field 'AudioManager.checkPoint' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(20,32): warning CS0649: Field 'CharacterMovement.rb' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CameraFollower.cs(9,30): warning CS0649: Field 'CameraFollower.inRoomPositionOffset' is never assigned to, and will always have its default value [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Door.cs(5,32): warning CS0649: Field 'Door.door_Cam' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
-C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(21,32): warning CS0649: Field 'CharacterMovement.rb' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(7,34): warning CS0649: Field 'AudioManager.bgAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(8,31): warning CS0649: Field 'CharacterMovement.playerAnimator' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(11,32): warning CS0649: Field 'AudioManager.PopTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\Movement.cs(8,13): warning CS0169: The field 'Movement.velocity' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(9,32): warning CS0649: Field 'AudioManager.PickTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(8,34): warning CS0649: Field 'AudioManager.inGameAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\PlayableDynamicJoystick.cs(15,21): warning CS0169: The field 'PlayableDynamicJoystick.startPos' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(9,35): warning CS0649: Field 'GameController.TargetPoins' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(10,30): warning CS0169: The field 'GameController.shelfs' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs(15,33): warning CS0649: Field 'UIManager.infoImg' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
 
   CompilerServer: server - server processed compilation - Scripts
 
 _CopyFilesMarkedCopyLocal:
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.dll".
 
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
-
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
-
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
 
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.dll".
 
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.dll".
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.dll".
 
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.dll".
+
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\DOTween.1.2.705\lib\net40\DOTween.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\DOTween.dll".
+
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.dll".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dll".
 
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.textmeshpro\3.0.6\TextMeshPro.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\TextMeshPro.dll".
 
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.dll".
 
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
 
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.ui\1.2.1\UnityEngine.UI.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UI.dll".
 
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Vendor\UnityEngine.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.dll".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\com.unity.urp\7.6\UnityEngine.UniversalRenderPipeline.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\UnityEngine.UniversalRenderPipeline.dll".
 
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Core.17.9.42-luna\lib\net40\Bridge.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.xml".
 
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Html5.17.9.0\lib\net40\Bridge.Html5.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.Html5.xml".
 
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.dll" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.dl
-l".
-
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.xml".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.WebGL.1.22.0\lib\net40\Bridge.WebGL.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Bridge.WebGL.x
+ml".
 
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Bridge.Newtonsoft.Json.1.16.0\lib\net40\Newtonsoft.Json.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Newtonsoft.Json.xml".
+
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.Core.1.6.6733\lib\net40\Retyped.Core.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.Core.xml".
+
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
 
   Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.es5.2.8.6733\lib\net40\Retyped.es5.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.es5.xml".
 
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.scripthost.xml".
-
-  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.dom.2.8.6733\lib\net40\Retyped.dom.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\Retyped.dom.xml".
+  Copying file from "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\packages\Retyped.scripthost.2.8.6733\lib\net40\Retyped.scripthost.xml" to "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\bin\Debug\
+Retyped.scripthost.xml".
 
   Creating "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\obj\Debug\Scripts.csproj.Up2Date" because "AlwaysCreate" was specified.
 
@@ -202,6 +205,7 @@ BridgeNetCompilerTask:
   Bridge started
 
       To enable detailed logging, configure "logging" in bridge.json.
+
       https://github.com/bridgedotnet/Bridge/wiki/global-configuration#logging
 
   Bridge done
@@ -212,35 +216,36 @@ Done Building Project "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates
 Build succeeded.
 
 
+
 "C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj" (Rebuild target) (1) ->
 (CoreCompile target) -> 
 
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CameraFollower.cs(9,30): warning CS0649: Field 'CameraFollower.inRoomPositionOffset' is never assigned to, and will always have its default value [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Shelf.cs(8,32): warning CS0649: Field 'Shelf.playerStandPoint' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(12,32): warning CS0649: Field 'AudioManager.checkPoint' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\Movement.cs(8,13): warning CS0169: The field 'Movement.velocity' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\PlayableDynamicJoystick.cs(15,21): warning CS0169: The field 'PlayableDynamicJoystick.startPos' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(14,32): warning CS0649: Field 'AudioManager.levelComplete' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs(15,33): warning CS0649: Field 'UIManager.infoImg' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(8,34): warning CS0649: Field 'AudioManager.inGameAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(7,34): warning CS0649: Field 'AudioManager.bgAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Player.cs(9,41): warning CS0649: Field 'Player.playerCatchPoints' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(9,31): warning CS0649: Field 'CharacterMovement.playerAnimator' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(10,30): warning CS0169: The field 'GameController.shelfs' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(9,35): warning CS0649: Field 'GameController.TargetPoins' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs(16,27): warning CS0649: Field 'UIManager.infoTxt' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(7,32): warning CS0169: The field 'GameController.confettiCamera' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(11,32): warning CS0649: Field 'AudioManager.PopTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(9,32): warning CS0649: Field 'AudioManager.PickTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Shelf.cs(8,32): warning CS0649: Field 'Shelf.playerStandPoint' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs(16,27): warning CS0649: Field 'UIManager.infoTxt' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Player.cs(9,41): warning CS0649: Field 'Player.playerCatchPoints' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(14,32): warning CS0649: Field 'AudioManager.levelComplete' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(12,32): warning CS0649: Field 'AudioManager.checkPoint' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(20,32): warning CS0649: Field 'CharacterMovement.rb' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CameraFollower.cs(9,30): warning CS0649: Field 'CameraFollower.inRoomPositionOffset' is never assigned to, and will always have its default value [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
   C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\Door.cs(5,32): warning CS0649: Field 'Door.door_Cam' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
-  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(21,32): warning CS0649: Field 'CharacterMovement.rb' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(7,34): warning CS0649: Field 'AudioManager.bgAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\CharacterMovement.cs(8,31): warning CS0649: Field 'CharacterMovement.playerAnimator' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(11,32): warning CS0649: Field 'AudioManager.PopTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\Movement.cs(8,13): warning CS0169: The field 'Movement.velocity' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(9,32): warning CS0649: Field 'AudioManager.PickTomato' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\AudioManager.cs(8,34): warning CS0649: Field 'AudioManager.inGameAS' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\_Third Person Movement\_Third Person Movement\PlayableDynamicJoystick.cs(15,21): warning CS0169: The field 'PlayableDynamicJoystick.startPos' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(9,35): warning CS0649: Field 'GameController.TargetPoins' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\GameController.cs(10,30): warning CS0169: The field 'GameController.shelfs' is never used [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+  C:\Users\Salman Minhas\Downloads\Unity_Game_Development\Library_Ad\LunaTemp\stage3\processed-scripts\Assets\Script\UIManager.cs(15,33): warning CS0649: Field 'UIManager.infoImg' is never assigned to, and will always have its default value null [C:\Users\Salman Minhas\Downloads\7.2.0\pipeline\templates\LunaCompiler\Scripts\Scripts.csproj]
+
 
     19 Warning(s)
     0 Error(s)
 
 
-Time Elapsed 00:00:14.40
+Time Elapsed 00:00:27.48
 
 Source code compiled successfully!
 ∩╗┐

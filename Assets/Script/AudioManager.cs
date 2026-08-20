@@ -21,12 +21,9 @@ public class AudioManager : MonoBehaviour
     }
     void Start()
     {
-        PlayBG();
-    }
-    public void PlayBG()
-    {
         bgAS.Play();
     }
+    
     public void PlayPickBookSound()
     {
         inGameAS.PlayOneShot(PickTomato );

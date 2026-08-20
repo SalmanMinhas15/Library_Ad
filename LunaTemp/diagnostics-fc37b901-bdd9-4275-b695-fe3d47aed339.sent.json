@@ -1,0 +1,63 @@
+{
+    "BuildID": "fc37b901-bdd9-4275-b695-fe3d47aed339",
+    "Command": "project:deploy",
+    "ProjectID": "bd826f3895869644c9c3079f3a001426",
+    "ProjectStateHash": "f0fe8a2e3f30ada5e455113e7715f18c29a2ed9dcc13ed8e15b95ac15ed32009",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 0,
+    "StartTime": 1787228052084,
+    "EndTime": 1787228127828,
+    "PlaygroundUserID": 39246,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "playground",
+    "UnityVersion": "6000.0.81f1",
+    "LunaVersion": "7.2.0",
+    "LogCount": 2,
+    "Logs": [
+        {
+            "LogID": "17ae7496-d366-42c9-b3e0-2af0bda0fe0c",
+            "Order": 1,
+            "Timestamp": 1787228128406,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "66a5d1da-b70f-4c78-9d65-34ff39d65b56",
+            "Order": 1,
+            "Timestamp": 1787228128409,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        }
+    ]
+}
